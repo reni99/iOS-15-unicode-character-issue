@@ -10,11 +10,11 @@ This documents an issue with unicode characters in UILabel on iOS 15.
 
 1. Run the app in the simulator with iOS 15.0. The label with the text "Very\u{00AD}VeryVeryVeryVeryVeryLongWordWithASoftHyphenToShowTheIssue" does not break at the expected soft hyphen \u{00AD}.
 
-![Simulator Screen Shot - iPhone 11 - 2021-10-04 at 09 24 37](https://user-images.githubusercontent.com/6748633/135825040-59a12775-561c-4f72-be7c-58408233a5d5.png)
+<img width="466" alt="Screenshot 2021-10-04 at 11 14 22" src="https://user-images.githubusercontent.com/6748633/135825348-f3162297-365a-46a9-b166-f47efceecadc.png">
 
 2. Run the app in the simulator with iOS 14.x. The label with the text "Very\u{00AD}VeryVeryVeryVeryVeryLongWordWithASoftHyphenToShowTheIssue" does break at the expected soft hyphen \u{00AD}.
 
-![Simulator Screen Shot - iPhone 12 - 2021-10-04 at 09 41 32](https://user-images.githubusercontent.com/6748633/135825087-f56312f3-e665-4b0e-b827-6ff83fdf237e.png)
+<img width="527" alt="Screenshot 2021-10-04 at 11 14 10" src="https://user-images.githubusercontent.com/6748633/135825338-a325f5f1-50f0-4199-bb84-5280524820cc.png">
 
 ## Expected result 
 
