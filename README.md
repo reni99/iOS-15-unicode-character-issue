@@ -2,7 +2,7 @@
 
 This documents an issue with unicode characters in UILabel on iOS 15.
 
-## Prerquisits
+## Prerequisites
 - Xcode version 13.0 (13A233)
 - Simulators for iOS 15.0 & iOS 14.x
 
